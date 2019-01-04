@@ -1,4 +1,6 @@
+/* Import para resetear parametros de la pagina*/
 @import url(reset.css);
+/* importar fuentes de google fonts*/
 @import url('https://fonts.googleapis.com/css?family=Cuprum:400,700');
 
 /*para ajustar el box-sizing para no agrandar la caja con border, padding, etc.
@@ -19,7 +21,7 @@ h1,h2,h3,h4,h5,h6{
 	color: #717171;
 	font-weight: bold;
 }
-
+/* Sirve para quitar azul de palabras o frases de enlace*/
 a{
 	text-decoration: none;
 }
@@ -67,12 +69,15 @@ header{
 	height: 85px;
 	padding: 30px 0 0 0;
 }
+/*Poner linea horizontal a la derecha del logo*/
 header .logo img{
 	border-right: 1px solid #ddd;
 }
+/*Para poner en linea el menu de navegacion y bloque*/
 header nav ul li{
 	display: inline-block;
 }
+/* Para poner el menu con separaciones en bloque para pulsar donde quieras alineando el texto en el centro*/
 header nav ul li a{
 	display: block;
 	padding: 10px 20px 0px 20px;
@@ -80,6 +85,7 @@ header nav ul li a{
 	color: #646464;
 	height: 55px;
 }
+/* hover es para interactuar con el menu poniendote encima con el raton y que cambie de color mas oscuro*/
 header nav ul li a:hover{
 	color: #404040;
 	border-bottom: 3px solid #fe0000;
@@ -91,10 +97,11 @@ header .carrito a{
 	padding: 5px 15px;
 	border-radius: 25px;
 }
-
+/* realizar flotacion para poner el logo en el header pegado a la izquierda*/
 header .logo, header nav{
 	float: left;
 }
+/* realizar flotacion para poner el carrito en el header en la derecha*/
 header .carrito{
 	float: right;
 }
